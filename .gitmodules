@@ -34,3 +34,6 @@
 [submodule "inherited/normalize.css"]
 	path = inherited/normalize.css
 	url = git://github.com/necolas/normalize.css.git
+[submodule "inherited/mobile-boilerplate"]
+	path = inherited/mobile-boilerplate
+	url = git://github.com/h5bp/mobile-boilerplate.git

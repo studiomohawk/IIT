@@ -9,6 +9,7 @@ Location: Tokyo, Japan.
 /* THANKS */
 Harry Roberts: https://github.com/csswizardry/vanilla
 Everyone at Html5 Boilerplate: https://github.com/h5bp/html5-boilerplate
+Everyone at Mobile Boilerplate: https://github.com/h5bp/mobile-boilerplate
 samcollins: https://github.com/samcollins/css-social-buttons
 thoughtbot, inc.: https://github.com/thoughtbot/bourbon
 Mark Otto: https://github.com/markdotto/Preboot.less
