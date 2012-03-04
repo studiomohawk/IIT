@@ -1,0 +1,36 @@
+[submodule "styleguide"]
+	path = styleguide
+	url = git://github.com/kneath/kss.git
+[submodule "inherited/vanilla"]
+	path = inherited/vanilla
+	url = git://github.com/csswizardry/vanilla.git
+[submodule "inherited/html5-boilerplate"]
+	path = inherited/html5-boilerplate
+	url = git://github.com/h5bp/html5-boilerplate.git
+[submodule "inherited/LESS-CSS3-Mixins"]
+	path = inherited/LESS-CSS3-Mixins
+	url = git://github.com/MatthewWagerfield/LESS-CSS3-Mixins.git
+[submodule "inherited/css-social-buttons"]
+	path = inherited/css-social-buttons
+	url = git://github.com/samcollins/css-social-buttons.git
+[submodule "inherited/bourbon"]
+	path = inherited/bourbon
+	url = git://github.com/thoughtbot/bourbon.git
+[submodule "inherited/Preboot.less"]
+	path = inherited/Preboot.less
+	url = git://github.com/markdotto/Preboot.less.git
+[submodule "inherited/animate.css"]
+	path = inherited/animate.css
+	url = git://github.com/daneden/animate.css.git
+[submodule "inherited/Frameless"]
+	path = inherited/Frameless
+	url = git://github.com/jonikorpi/Frameless.git
+[submodule "inherited/oocss"]
+	path = inherited/oocss
+	url = git://github.com/stubbornella/oocss.git
+[submodule "inherited/Iconic"]
+	path = inherited/Iconic
+	url = git://github.com/somerandomdude/Iconic.git
+[submodule "inherited/normalize.css"]
+	path = inherited/normalize.css
+	url = git://github.com/necolas/normalize.css.git

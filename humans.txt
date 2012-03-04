@@ -1,0 +1,24 @@
+humans.txt
+Direct link
+/* TEAM */
+Designer/develper: Yuya Saito
+Site: cssradar@gmail.com 
+Twitter: @cssradar
+Location: Tokyo, Japan.
+
+/* THANKS */
+Harry Roberts: https://github.com/csswizardry/vanilla
+Everyone at Html5 Boilerplate: https://github.com/h5bp/html5-boilerplate
+samcollins: https://github.com/samcollins/css-social-buttons
+thoughtbot, inc.: https://github.com/thoughtbot/bourbon
+Mark Otto: https://github.com/markdotto/Preboot.less
+Dan Eden: https://github.com/daneden/animate.css
+Joni Korpi: https://github.com/jonikorpi/Frameless
+Nicole Sullivan: https://github.com/stubbornella/oocss
+P.J. Onori: https://github.com/somerandomdude/Iconic
+Andy Clarke: https://github.com/malarkey/320andup/
+Nicolas Gallagher: https://github.com/necolas/normalize.css
+Kyle Neath: https://github.com/kneath/kss
+
+/* SITE */
+Last update: 2012/03/04
