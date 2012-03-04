@@ -8,3 +8,8 @@ I thank you all for your great creations.
 IIT is my version of boilerplate/bootstrap. This repo will always be beta since I will constantly tweak.  
 As Kirby Ferguson of [Everthing is a Remix](http://www.everythingisaremix.info/) brilliantly put it:  
 "Copy, transform and combine. It’s who we are, it’s how we live, and of course, it’s how we create. Our new ideas evolve from the old ones."
+
+## Caution
+
+This is a personal project so DO NOT think it will work as it is. If you do want to use it on your project, use it with caution.  
+I do believe I know what I am doing. But we all know that we don't know anything for sure. We're just faking it.
