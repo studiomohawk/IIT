@@ -6,13 +6,14 @@ http://j.mp/zcI2Uy by Harry Roberts
 
 @font-size: 16;
 @em: @font-size * 1em;
-@rem: @font-size / 10; // ~"@{rem}rem"
-@line-height: 1.5;
+@rem: (@font-size / 10) * 1rem;
+@ratio: 1.5;
+@magic-num: (@font-size * @ratio) * 1px;
 
 html {
-    font-size: @font-size / 16 * 1em;   
+    font-size: @font-size * 1px;   
 	/* Assuming 16px... */
-    line-height: @line-height;
+    line-height: @ratio;
 	/* 24px (This is now our magic number; all subsequent margin-bottoms and line-heights want to be a multiple of this number in order to maintain vertical rhythm.) */
 	-webkit-text-size-adjust: 100%; 
 	-ms-text-size-adjust: 100%;
@@ -26,61 +27,61 @@ p,
 table,
 pre,
 hr {
-    margin-bottom: 24px;
+    margin-bottom: @magic-num;
     margin-bottom: 1.5rem;
 }
 
 /* These handle massive type, for less frequently occuring bits of text (e.g. in mastheads and banners). */
 .giga {
-    font-size: 80px;
+    font-size: (5 * @font-size) * 1px;
     font-size: 5rem;     /* 80px */
     line-height: 1.2;    /* 96px */
 }
 .mega {
-    font-size: 64px;
+    font-size: (4 * @font-size) * 1px;
     font-size: 4rem;     /* 64px */
     line-height: 1.125;  /* 72px */
 }
 .kilo {
-    font-size: 48px;
+    font-size: (3 * @font-size) * 1px;
     font-size: 3rem;     /* 48px */
     line-height: 1;      /* 48px */
 }
 
 /* Define headings and their associated classes here. */
 h1,.alpha {
-    font-size: 32px;
+    font-size: (2 * @font-size) * 1px;
     font-size: 2rem;     /* 32px */
     line-height: 1.5;    /* 48px */
 }
 h2,.beta {
-    font-size:1.5em;     /* 24px */
+    font-size: (1.5 * @font-size) * 1px;     /* 24px */
     line-height: 1;      /* 24px */
 }
 h3,.gamma {
-    font-size: 20px;
+    font-size: (1.25 * @font-size) * 1px;
     font-size: 1.25rem;  /* 20px */
     line-height: 1.2;    /* 24px */
 }
 h4,.delta {
-    font-size: 18px;
+    font-size: (1.125 * @font-size) * 1px;
     font-size: 1.125rem; /* 18px */
     line-height: 1.333;  /* 24px */
 }
 h5,.epsilon {
-    font-size: 16px;
+    font-size: @font-size * 1px;
     font-size: 1rem;     /* 16px */
     line-height: 1.5;    /* 24px */
 }
 h6,.zeta {
-    font-size: 16px;
+    font-size: @font-size * 1px;
     font-size: 1rem;     /* 16px */
     line-height: 1.5;    /* 24px */
 }
 
 /* Smaller-than-body-copy sizes here. */
 small,.milli {
-    font-size: 12px;
+    font-size: (0.75 * @font-size) * 1px;
     font-size: 0.75rem;  /* 12px */
     line-height: 2;      /* 24px */
 }
